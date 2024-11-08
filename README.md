@@ -60,5 +60,28 @@ This game is designed for two players. Here's how it works:
 
 ## Screenshots
 
-| Main Page for Giving the Number to Guess | Number Guessing Page |
-|---|---|
+**Original Version Screenshot**
+## Main Image
+
+![Main Screen to Guess the Number](https://github.com/user-attachments/assets/20bf1f05-6269-4a84-8ee8-860b9c81df5c)
+
+
+## Other Images
+
+| 1st Guess | 2nd Guess | Founded The Number |
+|---|---|---|
+|![image](https://github.com/user-attachments/assets/0e5aee60-6622-4c4a-b79e-2e8378c3d6ac) | ![image](https://github.com/user-attachments/assets/6d7a9e56-499a-4a65-87d7-cc8f0e149dfe) | ![image](https://github.com/user-attachments/assets/54ab7fd5-da4c-4981-acae-f9ca0113b9bc) |
+
+
+***Enhanced Version Screenshot***
+## Main Image
+
+![Main Screen to Guess the Number](https://github.com/user-attachments/assets/7ecc174a-561b-4d59-9ef8-4f9cfc07dbc3)
+
+
+
+## Other Images
+
+| 1st Guess | 2nd Guess | Founded The Number |
+|---|---|---|
+|![image](https://github.com/user-attachments/assets/1bf615b2-f999-4d32-b3e8-63c6dda9a369) | ![image](https://github.com/user-attachments/assets/c11a6db9-842a-446a-916c-afd197469f9c)| ![image](https://github.com/user-attachments/assets/d228ba44-7e0b-4898-8d61-933bc9787327) |
