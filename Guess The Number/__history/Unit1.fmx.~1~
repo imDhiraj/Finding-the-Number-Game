@@ -1,0 +1,75 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Number Guess'
+  ClientHeight = 246
+  ClientWidth = 474
+  SystemStatusBar.BackgroundColor = claSteelblue
+  StyleLookup = 'Editstyle'
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object NumberEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    TextSettings.FontColor = claIndigo
+    Position.X = 32.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    StyledSettings = [Family, Size, Style]
+  end
+  object TitleLabel: TLabel
+    StyledSettings = [Family, Size]
+    Position.X = 20.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 269.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.StyleExt = {00040000000200000004000000}
+    TextSettings.FontColor = claBlueviolet
+    Text = 'TitleLabel'
+    TabOrder = 1
+  end
+  object CounterLabel: TLabel
+    StyledSettings = [Family, Size, Style]
+    Position.X = 316.000000000000000000
+    Position.Y = 32.000000000000000000
+    TextSettings.FontColor = claBlueviolet
+    Text = 'CounterLabel'
+    TabOrder = 2
+  end
+  object HelperLabel: TLabel
+    StyledSettings = [Size]
+    Position.X = 16.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 241.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Britannic'
+    TextSettings.Font.StyleExt = {00070000000200000004000000}
+    TextSettings.FontColor = claBurlywood
+    Text = 'HelperLabel'
+    TabOrder = 3
+  end
+  object ConfirmButton: TButton
+    StyledSettings = [Family, Size, Style]
+    Position.X = 272.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Confirm'
+    TextSettings.Trimming = None
+    OnClick = ConfirmButtonClick
+  end
+  object ColorAnimation1: TColorAnimation
+    Duration = 0.200000002980232200
+    PropertyName = 'SystemStatusBar.BackgroundColor'
+    StartValue = claWhite
+    StopValue = claWhite
+  end
+end
